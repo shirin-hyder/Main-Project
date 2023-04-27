@@ -21,9 +21,10 @@ import pandas as pd
 import numpy as np
 from nltk.corpus import stopwords
 import nltk
-nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
+# nltk.download('stopwords')
+# nltk.download('punkt')
+# nltk.download('averaged_perceptron_tagger')
+nltk.data.path.append("C:/Users/shiri/AppData/Roaming/nltk_data")
 
 from nltk.stem import SnowballStemmer
 import re

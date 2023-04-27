@@ -22,9 +22,10 @@ import nltk
 import heapq
 import requests
 import io
-nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
+# nltk.download('stopwords')
+# nltk.download('punkt')
+# nltk.download('averaged_perceptron_tagger')
+nltk.data.path.append("C:/Users/shiri/AppData/Roaming/nltk_data")
 
 from nltk.stem import SnowballStemmer
 import re

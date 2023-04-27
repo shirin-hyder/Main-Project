@@ -7,9 +7,10 @@ import numpy as np
 from nltk.corpus import stopwords 
 from nltk.tokenize import word_tokenize
 import nltk
-nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
+# nltk.download('stopwords')
+# nltk.download('punkt')
+# nltk.download('averaged_perceptron_tagger')
+nltk.data.path.append("C:/Users/shiri/AppData/Roaming/nltk_data")
 from nltk.stem import SnowballStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.svm import LinearSVC
